@@ -1,0 +1,56 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+
+    
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+	/*
+	left: 1020px;
+	top: 170px;
+	*/
+    background: #495057;
+    color: white;
+}
+.fa-github {
+    background: #495057;
+    color: white;
+}
+.fa-envelope {
+    background: #495057;
+    color: white;
+}
+.fa-file-text {
+    background: #495057;
+    color: white;
+}
+
+
+
+.bg { 
+
+	background-image: url("resources/background.jpg");
+
+	height: 100%; 
+
+
+
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
