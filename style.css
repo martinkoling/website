@@ -38,19 +38,91 @@ body, html {
     color: white;
 }
 
+.header{
+	width:100%;
+	display: flex;
+	justify-content: flex-end;
+
+	padding-right: 50px;
+}
+
+
+.text {
+	width:400px;
+	display: flex;
+	justify-content: flex-end;
+
+	width: 100%;
+}
+
+.text > p {
+
+width: 450px;
+padding-right: 30px;
+font-size:17px;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 600;
+text-align: left;
+
+
+
+}
+
+.links {
+	padding-right: 150px;
+}
 
 
 .bg { 
+height:100vh;
+background-image: url("resources/background.jpg");
 
-	background-image: url("resources/background.jpg");
-
-	height: 100%; 
-
+background-size: cover;
+background-repeat: no-repeat;
 
 
-	position: relative;
-	background-repeat: no-repeat;
-	background-size: cover;
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	.bg { 
+height:100vh;
+background-image: url("resources/background.jpg");
+
+background-size: 100%;
+background-repeat: no-repeat;
+padding-top: 250px;
+
+
+
+}
+
+.text > p {
+
+
+padding: 10px 10px;
+font-size:17px;
+font-family: 'Titillium Web', sans-serif;
+font-weight: 600;
+text-align: center; 
+
+
+
+}
+
+.header{
+	width:100%;
+	display: flex;
+	justify-content: center;
+
+	
+}
+
+.links {
+	padding-right: 0px;
+}
 
 }
 
